@@ -1,0 +1,560 @@
+15:34:13 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 24300 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+15:34:13 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:34:13 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+15:34:13 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.yiyang.WYYApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'wxPortalController' for bean class [cn.yiyang.mp.controller.WxPortalController] conflicts with existing, non-compatible bean definition of same name and class [cn.yiyang.cp.controller.WxPortalController]
+15:36:18 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 15616 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+15:36:18 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:36:18 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+15:36:18 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.yiyang.WYYApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'wxPortalController' for bean class [cn.yiyang.mp.controller.WxPortalController] conflicts with existing, non-compatible bean definition of same name and class [cn.yiyang.cp.controller.WxPortalController]
+15:38:08 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 888 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+15:38:08 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:38:08 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+15:38:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.yiyang.WYYApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'wxCpPortalController' for bean class [cn.yiyang.mp.controller.WxCpPortalController] conflicts with existing, non-compatible bean definition of same name and class [cn.yiyang.cp.controller.WxCpPortalController]
+15:39:14 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12720 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+15:39:14 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:39:14 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+15:39:15 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.yiyang.WYYApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'errorController' for bean class [cn.yiyang.mp.error.ErrorController] conflicts with existing, non-compatible bean definition of same name and class [cn.yiyang.cp.error.ErrorController]
+15:42:30 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 22948 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+15:42:30 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:42:30 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+15:42:31 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+15:42:31 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+15:42:31 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+15:42:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:42:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:42:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+15:42:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$91b7809] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a732fdf8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+15:42:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+15:42:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:42:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+15:42:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:42:32 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2244 ms
+15:42:32 [main] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+15:42:34 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/D:/localWeraHouse/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/D:/localWeraHouse/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [cn/yiyang/system/config/WebMvcConfigurer.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'errorController' method 
+public java.lang.String cn.yiyang.mp.error.ErrorController.error404()
+to {GET /error/404}: There is already 'cpErrorController' bean method
+public java.lang.String cn.yiyang.cp.error.CpErrorController.error404() mapped.
+15:42:34 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:42:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:44:15 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 16628 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+15:44:15 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:44:15 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+15:44:16 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+15:44:16 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+15:44:16 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+15:44:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:44:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:44:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+15:44:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$2135c15f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:44:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:44:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:44:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:44:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf4d474e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:44:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+15:44:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+15:44:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:44:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+15:44:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:44:17 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1734 ms
+15:44:17 [main] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+15:44:19 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:44:20 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+15:44:20 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:44:20 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:44:20 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:44:20 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+15:44:20 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:44:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+15:44:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+15:44:20 [main] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.49 seconds (JVM running for 6.134)
+15:46:56 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 11320 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+15:46:56 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:46:56 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+15:46:57 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+15:46:57 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+15:46:57 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+15:46:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:46:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:46:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+15:46:57 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$c7c30b4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:57 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:57 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:57 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:57 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65da913c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+15:46:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+15:46:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:46:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+15:46:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:46:58 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1684 ms
+15:46:58 [main] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+15:46:59 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:47:00 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+15:47:00 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:47:00 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:47:00 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:47:00 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+15:47:00 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+15:47:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+15:47:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+15:47:00 [main] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 4.636 seconds (JVM running for 5.353)
+16:07:03 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 20536 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:07:03 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:07:03 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:07:04 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:07:04 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:07:04 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:07:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:07:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:07:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+16:07:04 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$b25c9872] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:07:04 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:07:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:07:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:07:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50741e61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:07:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:07:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:07:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:07:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:07:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:07:05 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1671 ms
+16:07:05 [main] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:07:06 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/D:/localWeraHouse/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/D:/localWeraHouse/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [cn/yiyang/system/config/WebMvcConfigurer.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cn.yiyang.mp.error.ErrorController' method 
+public java.lang.String cn.yiyang.mp.error.ErrorController.error404()
+to {GET /error/404}: There is already 'cn.yiyang.cp.error.ErrorController' bean method
+public java.lang.String cn.yiyang.cp.error.ErrorController.error404() mapped.
+16:07:06 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:07:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:09:46 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 7856 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:09:46 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:09:46 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:09:46 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:09:46 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:09:47 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:09:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:09:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:09:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+16:09:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$d50f3df6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:09:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:09:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:09:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:09:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7326c3e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:09:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:09:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:09:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:09:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:09:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:09:48 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1745 ms
+16:09:48 [main] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:09:49 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:09:49 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+16:09:50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:09:50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:09:50 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:09:50 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+16:09:50 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+16:09:50 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: authGetUsingGET_1
+16:09:50 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: postUsingPOST_1
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:09:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:09:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:09:50 [main] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 4.65 seconds (JVM running for 5.276)
+16:11:52 [main] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 23680 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:11:52 [main] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:11:52 [main] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:11:53 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:11:53 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:11:53 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:11:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:11:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:11:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+16:11:53 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$2b1aa57c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:11:53 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:11:54 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:11:54 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:11:54 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c9322b6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:11:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:11:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:11:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:11:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:11:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:11:55 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2226 ms
+16:11:55 [main] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:11:56 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:11:57 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+16:11:57 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:11:57 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:11:57 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:11:57 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+16:11:57 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+16:11:57 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: authGetUsingGET_1
+16:11:57 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: postUsingPOST_1
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:11:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:11:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:11:57 [main] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.242 seconds (JVM running for 5.97)
+16:12:04 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:12:04 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:12:04 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+16:12:04 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 请求地址 : http://localhost:8082/wx/mp/redirect/getUrl
+16:12:04 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - HTTP METHOD : GET
+16:12:04 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - CLASS_METHOD : cn.yiyang.mp.controller.WxRedirectController.getUrl
+16:12:04 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 参数 : []
+16:12:04 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 耗时 : 4
+16:12:04 [http-nio-8082-exec-1] DEBUG cn.yiyang.common.aspect.WebLogAspect - 返回值 : cn.yiyang.common.utils.ResultBean@8d5e792
+16:12:05 [http-nio-8082-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+16:12:05 [http-nio-8082-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler public cn.yiyang.common.utils.ResultBean cn.yiyang.system.exception.WYYExceptionHandler.handleNoHandlerFoundException(org.springframework.web.servlet.NoHandlerFoundException,javax.servlet.http.HttpServletRequest)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:246)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:122)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:140)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1298)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1110)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:12:05 [http-nio-8082-exec-2] WARN  o.s.web.servlet.PageNotFound - No handler found for GET /favicon.ico
+16:12:05 [http-nio-8082-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /favicon.ico]
+16:17:56 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 22636 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:17:56 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:17:56 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:17:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:17:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:17:57 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:17:57 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:17:57 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:17:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:17:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:17:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+16:17:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$c0917b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:17:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:17:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:17:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:17:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ea90147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:17:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:17:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:17:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:17:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:17:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:17:58 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2232 ms
+16:17:58 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:17:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:17:59 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:18:00 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+16:18:00 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:18:00 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:18:00 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:18:00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+16:18:00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+16:18:00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: authGetUsingGET_1
+16:18:00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: postUsingPOST_1
+16:18:00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getUrlUsingGET_1
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:18:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:18:00 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.419 seconds (JVM running for 6.513)
+16:18:19 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:18:19 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:18:19 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+16:18:19 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 请求地址 : http://localhost:8082/wx/cp/portal/getUrl
+16:18:19 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - HTTP METHOD : GET
+16:18:19 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - CLASS_METHOD : cn.yiyang.cp.controller.WxPortalController.getUrl
+16:18:19 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 参数 : []
+16:18:44 [Thread-14] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+16:18:44 [Thread-14] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+16:18:45 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 22636 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:18:45 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:18:45 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:18:45 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:18:45 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:18:45 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:18:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:18:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:18:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+16:18:45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$c0917b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ea90147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:18:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:18:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:18:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:18:45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:18:45 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 716 ms
+16:18:45 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:18:46 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:18:46 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+16:18:46 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+16:18:47 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:18:47 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:18:47 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:18:47 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+16:18:47 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+16:18:47 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: authGetUsingGET_1
+16:18:47 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: postUsingPOST_1
+16:18:47 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getUrlUsingGET_1
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:18:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:18:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:18:47 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 2.068 seconds (JVM running for 52.718)
+16:18:47 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+16:18:53 [Thread-25] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+16:18:53 [Thread-25] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+16:18:54 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 22636 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:18:54 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:18:54 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:18:54 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:18:54 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:18:54 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:18:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:18:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:18:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+16:18:54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$c0917b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ea90147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:18:54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:18:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:18:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:18:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:18:54 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 665 ms
+16:18:54 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:18:54 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cn.yiyang.cp.controller.WxPortalController': Unsatisfied dependency expressed through field 'wxCpService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'me.chanjar.weixin.cp.api.WxCpService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+16:18:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:18:54 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:18:58 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 22636 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:18:58 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:18:58 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:18:58 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:18:58 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:18:58 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:18:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:18:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:18:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+16:18:58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$c0917b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ea90147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:18:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:18:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:18:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:18:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:18:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:18:59 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 735 ms
+16:18:59 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:18:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:19:00 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+16:19:00 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+16:19:00 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:19:00 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:19:00 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:19:00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+16:19:00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:19:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:19:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:19:00 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 2.325 seconds (JVM running for 66.374)
+16:19:00 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+16:19:08 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:19:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:19:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+16:19:08 [http-nio-8082-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /wx/cp/portal/getUrl
+16:19:20 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 9640 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:19:20 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:19:20 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:19:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:19:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:19:21 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:19:21 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:19:21 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:19:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:19:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:19:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+16:19:21 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$bcc7c89a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:19:21 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:19:21 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:19:21 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:19:21 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5adf4e89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:19:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:19:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:19:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:19:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:19:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:19:22 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1861 ms
+16:19:22 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:19:22 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cn.yiyang.cp.controller.WxPortalController': Unsatisfied dependency expressed through field 'wxCpService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'me.chanjar.weixin.cp.api.WxCpService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+16:19:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:19:22 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:20:07 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 23616 (started by Administrator in D:\WYYWorkplace\在线培训\WorkOnlineWar)
+16:20:07 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:20:07 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+16:20:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:20:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:20:07 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+16:20:07 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+16:20:08 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+16:20:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:20:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:20:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+16:20:08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.config.ShiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$8068faed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:20:08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.yiyang.system.shiro.CustomRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:20:08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:20:08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:20:08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e8080dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:20:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:20:09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:20:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:20:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+16:20:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:20:09 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1870 ms
+16:20:09 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+16:20:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:20:10 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:20:11 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+16:20:11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:20:11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:20:11 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:20:11 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuCreateUsingPOST_1
+16:20:11 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: menuDeleteUsingGET_1
+16:20:11 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: authGetUsingGET_1
+16:20:11 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: postUsingPOST_1
+16:20:11 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getUrlUsingGET_1
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+16:20:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:20:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:20:11 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 4.879 seconds (JVM running for 5.572)
+16:20:16 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:20:16 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:20:16 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+16:20:16 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 请求地址 : http://localhost:8082/wx/cp/portal/getUrl
+16:20:16 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - HTTP METHOD : GET
+16:20:16 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - CLASS_METHOD : cn.yiyang.cp.controller.WxPortalController.getUrl
+16:20:16 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 参数 : []
+16:20:16 [http-nio-8082-exec-1] INFO  cn.yiyang.common.aspect.WebLogAspect - 耗时 : 4
+16:20:16 [http-nio-8082-exec-1] DEBUG cn.yiyang.common.aspect.WebLogAspect - 返回值 : cn.yiyang.common.utils.ResultBean@42d922f

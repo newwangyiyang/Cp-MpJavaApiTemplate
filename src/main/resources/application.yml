@@ -1,0 +1,88 @@
+server:
+  #设置端口号
+  port: 8080
+  servlet:
+    session:
+      timeout: 1800s
+
+
+#定义上传文件的路径
+web:
+  upload-path: D:/pic/upload/
+
+spring:
+  jackson:
+      time-zone: GMT+8
+      date-format: yyyy-MM-dd HH:mm:ss
+  #设置运行环境
+  profiles:
+    active: dev
+  #上传文件大小限制
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  devtools:
+    restart:
+      enabled: true
+  freemarker:
+      template-loader-path: classpath:/template/
+      cache: false
+      charset: UTF-8
+      check-template-location: true
+      content-type: text/html; charset=utf-8
+      expose-request-attributes: true
+      expose-session-attributes: true
+      request-context-attribute: request
+  #指定上传图片静态文件的位置，用于通过url精心访问
+  mvc:
+    throw-exception-if-no-handler-found: true
+#    static-path-pattern: /**
+  resources:
+      add-mappings: false
+#      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
+#      static-locations: file:${web.upload-path}
+#      当设置了add-mappings: false, 这里的static-locations和static-path-pattern无效
+#      设置add-mappings(取消静态文件映射)的目的是检测404接口
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔,  XML 中调用的时候不用包含包名
+  type-aliases-package: cn.yiyang.entity
+  global-config:
+    db-config:
+      # 开启大写命名，默认不开启
+      capital-mode: false
+      # 全局默认主键类型
+      id-type: id_worker
+      # 表名、是否使用下划线命名，默认数据库表使用下划线命名
+      table-underline: true
+      #该策略约定了如何产出注入的sql,涉及insert,update以及wrapper内部的entity属性生成的 where 条件
+      field-strategy: not_null
+      # 逻辑删除
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+
+wx:
+  mp:
+    configs:
+      - appId: 1
+        secret: 1
+        token: 1
+        aesKey: 1
+
+
+wechat:
+  cp:
+    corpId: 1
+    appConfigs:
+      - agentId: 1
+        secret: 1
+        token: 1
+        aesKey: 1
+
